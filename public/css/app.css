@@ -40,3 +40,8 @@ header ul li a {
   color: black;
 }
 
+footer {
+  height: 150px;
+  background-image: url(/images/footer-montagne-bottom.jpg?d53b01335f4c26b84b40ca2ab0a64ece);
+}
+

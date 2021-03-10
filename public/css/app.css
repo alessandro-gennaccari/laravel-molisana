@@ -83,7 +83,7 @@ header ul li a {
 
 .container-card .card .layover {
   display: none;
-  background-color: rgba(187, 187, 187, 0.425);
+  background-color: rgba(255, 255, 255, 0.555);
   height: calc(100% - 1%);
   width: 100%;
   position: absolute;

@@ -1,0 +1,35 @@
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+        width: calc(#{$width100} / 3);
+        position: relative;
+        img {
+            max-width: $width100;
+        }
+
+        .layover {
+            display: none;
+            background-color: $colorlayoverblack;
+            height: calc(#{$heigth100} - 1%);
+            width: $width100;
+            position: absolute;
+            top: 0;
+            left: 0;
+            .layover-text {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: $width100;
+                text-align: center;
+                font-size: $px20;
+                color: $colorpurple;
+            }
+        }
+
+        &:hover .layover {
+            display: block;
+        }
+    }
+}

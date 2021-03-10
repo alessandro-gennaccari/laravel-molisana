@@ -40,6 +40,28 @@ header ul li a {
   color: black;
 }
 
+.home-foto {
+  height: 1000px;
+  background-image: url(/images/molisana-home.jpg?cb7db241726fb646d7e1c8553429c07c);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.home-text {
+  text-align: center;
+  width: 37%;
+  margin: auto;
+}
+
+.home-text h2 {
+  margin-bottom: 20px;
+}
+
+.home-text p {
+  margin-top: 20px;
+}
+
 footer {
   height: 150px;
   background-image: url(/images/footer-montagne-bottom.jpg?d53b01335f4c26b84b40ca2ab0a64ece);

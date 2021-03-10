@@ -1,0 +1,18 @@
+.home-foto {
+    height: $heighthomefoto;
+    background-image: url('../../img/molisana-home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: $px20;
+}
+.home-text {
+    text-align: center;
+    width: 37%;
+    margin: auto;
+    h2 {
+        margin-bottom: $px20;
+    }
+    p {
+        margin-top: $px20;
+    }
+}

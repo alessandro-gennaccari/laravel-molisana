@@ -1,0 +1,22 @@
+header{
+    padding-top: $px20;
+    text-align: center;
+    ul {
+        padding-top: $px20;
+        li {
+            display: inline-block;
+            padding: 0 20px;
+            font-size: 25px;
+            &:hover {
+                background-color: $colorlightblue;
+            }
+            &:hover a {
+                color: $colorwhite;
+            }
+            a {
+                color: $colorblack;
+            }
+        }
+    }
+    margin-bottom: $px20;
+}

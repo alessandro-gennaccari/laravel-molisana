@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header ul {
+  padding-top: 20px;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 25px;
+}
+
+header ul li:hover {
+  background-color: rgba(119, 198, 201, 0.712);
+}
+
+header ul li:hover a {
+  color: white;
+}
+
+header ul li a {
+  color: black;
+}
+

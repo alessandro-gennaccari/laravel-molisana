@@ -106,6 +106,24 @@ header ul li a {
   display: block;
 }
 
+.paragraph {
+  padding-top: 50px;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.paragraph h2 {
+  margin: 20px 0;
+}
+
+.paragraph p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+}
+
 footer {
   height: 150px;
   background-image: url(/images/footer-montagne-bottom.jpg?d53b01335f4c26b84b40ca2ab0a64ece);

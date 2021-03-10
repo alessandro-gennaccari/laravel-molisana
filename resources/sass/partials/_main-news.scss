@@ -1,0 +1,15 @@
+.paragraph {
+    padding-top: $px50;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    h2 {
+        margin: $px20 0;
+    }
+    p {
+        margin-bottom: $px20;
+        font-size: $px20;
+        width: 80%;
+        margin: auto;
+    }
+}

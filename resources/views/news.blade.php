@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Le ultime notizie - La Molisana')
 @section('content')
 <main>
     @for ($i = 0; $i < 4; $i++)

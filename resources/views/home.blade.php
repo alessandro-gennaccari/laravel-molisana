@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Homepage - La Molisana')
 @section('content')
 <main>
     <div class="home-foto"></div>

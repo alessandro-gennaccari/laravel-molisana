@@ -11,11 +11,9 @@
     }
     .info-desc {
         background-color: $colorlightblue;
-        p {
-            font-size: 27px;
-            line-height: 1.6;
-            padding: $px10;
-        }
+        font-size: 26px;
+        padding: $px10;
+        line-height: 1.6;
         .box {
             padding: $px50;
             ul {

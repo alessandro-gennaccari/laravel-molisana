@@ -13,7 +13,7 @@
     <img src="{{ $tipoProdotto['src-p'] }}" alt="Confezione Pasta">
     <div class="info-desc">
         <div class="container">
-            <p>{!!  $tipoProdotto['descrizione'] !!}</p>
+            <div>{!!  $tipoProdotto['descrizione'] !!}</div>
             <div class="box">
                 <ul>
                     <li>

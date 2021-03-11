@@ -142,12 +142,9 @@ header ul li a {
 
 #info-products .info-desc {
   background-color: #b8dae6;
-}
-
-#info-products .info-desc p {
-  font-size: 27px;
-  line-height: 1.6;
+  font-size: 26px;
   padding: 10px;
+  line-height: 1.6;
 }
 
 #info-products .info-desc .box {

@@ -19,7 +19,21 @@ Route::get('/', function () {
 
 Route::get('/products', function () {
     $pasta = config('pasta');
-    $data = ['formati' => $pasta];
+
+    //Filtro con collections
+    $collections = collect($pasta);
+    $pasta_lunga = $collections->where('tipo', 'lunga');
+    $pasta_corta = $collections->where('tipo', 'corta');
+    $pasta_cortissima = $collections->where('tipo', 'cortissima');
+
+    $data = [
+        'formati' => [
+            'lunga' => $pasta_lunga,
+            'corta' => $pasta_corta,
+            'cortissima' => $pasta_cortissima
+        ] 
+    ];
+
     return view('products', $data);
 })->name('pagina-prodotti');
 

@@ -40,10 +40,16 @@ Route::get('/products', function () {
 Route::get('/info/{id}', function ($id) {
 
     $pasta = config('pasta');
-    $prodotto = $pasta[$id];
+    
+    if (is_numeric($id) && $id >= 0 && $id < count($pasta)) {
 
-    $data = ['tipoProdotto' => $prodotto];
-    return view('info_pasta', $data);
+        $prodotto = $pasta[$id];
+        $data = ['tipoProdotto' => $prodotto];
+        return view('info_pasta', $data);
+    } else {
+        abort('404');
+    }
+
 })->name('informazioni-pasta');
 
 Route::get('/news', function () {

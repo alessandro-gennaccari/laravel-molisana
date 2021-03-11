@@ -20,7 +20,7 @@ Route::get('/', function () {
 Route::get('/products', function () {
     $pasta = config('pasta');
 
-    //Filtro con collections
+    //Filtro con collect
     $collections = collect($pasta);
     $pasta_lunga = $collections->where('tipo', 'lunga');
     $pasta_corta = $collections->where('tipo', 'corta');
@@ -36,6 +36,13 @@ Route::get('/products', function () {
 
     return view('products', $data);
 })->name('pagina-prodotti');
+
+Route::get('/info/{id}', function ($id) {
+    $pasta = config('pasta');
+    $prodotto = $pasta[$id];
+    $data = ['tipoProdotto' => $prodotto];
+    return view('info_pasta', $data);
+})->name('informazioni-pasta');
 
 Route::get('/news', function () {
     return view('news');

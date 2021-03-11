@@ -170,18 +170,32 @@ header ul li a {
   color: #002d75;
 }
 
-.paragraph {
+.news-title {
+  background: linear-gradient(#0f2659, #1e4968);
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 80%;
+  text-align: center;
+}
+
+.all-paragraph {
+  background-color: #daedf3;
+  padding-bottom: 50px;
+}
+
+.all-paragraph .paragraph {
   padding-top: 50px;
   width: 40%;
   margin: auto;
   text-align: center;
 }
 
-.paragraph h2 {
+.all-paragraph .paragraph h2 {
   margin: 20px 0;
 }
 
-.paragraph p {
+.all-paragraph .paragraph p {
   margin-bottom: 20px;
   font-size: 20px;
   width: 80%;

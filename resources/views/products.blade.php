@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Prodotti - La Molisana')
 @section('content')
-<main>
+<main id="prodotti">
     <div class="container">
         <div class="container-card">
             @foreach ($formati as $formato)

@@ -10,7 +10,7 @@
                 <a href="#">
                     <div class="layover">
                         <div class="layover-text">
-                            {{ $formato['titolo'] .' - ' .$formato['tipo'] }}
+                            {{ $formato['titolo'] }}
                         </div>
                     </div>
                 </a>

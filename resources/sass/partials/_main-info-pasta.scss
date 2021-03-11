@@ -1,0 +1,36 @@
+#info-products {
+    .info-title {
+        background-color: $colorlightblue;
+        border-bottom: 1px solid $colorwhite;
+        padding: $px20;
+        text-align: center;
+        color: $colorBlue;
+    }
+    img {
+        display: block;
+    }
+    .info-desc {
+        background-color: $colorlightblue;
+        p {
+            font-size: 27px;
+            line-height: 1.6;
+            padding: $px10;
+        }
+        .box {
+            padding: $px50;
+            ul {
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                li {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    i {
+                        font-size: 40px;
+                        color: $colorBlue;
+                    }
+                }
+            }
+        }
+    }
+}

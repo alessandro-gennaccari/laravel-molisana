@@ -39,11 +39,11 @@ header ul li {
 }
 
 header ul li:hover {
-  background-color: #b3e5fc;
+  background-color: #b8dae6;
 }
 
 header ul li:hover a {
-  color: white;
+  color: #002d75;
 }
 
 header ul li a {
@@ -74,6 +74,7 @@ header ul li a {
 }
 
 #prodotti {
+  padding-bottom: 50px;
   background-color: #daedf3;
 }
 
@@ -125,6 +126,48 @@ header ul li a {
 
 #prodotti .container-card .card:hover .layover {
   display: block;
+}
+
+#info-products .info-title {
+  background-color: #b8dae6;
+  border-bottom: 1px solid white;
+  padding: 20px;
+  text-align: center;
+  color: #002d75;
+}
+
+#info-products img {
+  display: block;
+}
+
+#info-products .info-desc {
+  background-color: #b8dae6;
+}
+
+#info-products .info-desc p {
+  font-size: 27px;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+#info-products .info-desc .box {
+  padding: 50px;
+}
+
+#info-products .info-desc .box ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#info-products .info-desc .box ul li {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#info-products .info-desc .box ul li i {
+  font-size: 40px;
+  color: #002d75;
 }
 
 .paragraph {

@@ -38,8 +38,10 @@ Route::get('/products', function () {
 })->name('pagina-prodotti');
 
 Route::get('/info/{id}', function ($id) {
+
     $pasta = config('pasta');
     $prodotto = $pasta[$id];
+
     $data = ['tipoProdotto' => $prodotto];
     return view('info_pasta', $data);
 })->name('informazioni-pasta');

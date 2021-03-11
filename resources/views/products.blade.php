@@ -5,6 +5,7 @@
     <div class="container">
 
         @foreach ($formati as $type => $value)
+        <h2>La {{ $type }}</h2>
         <div class="container-card">
             @foreach ($value as $formato)
             <div class="card">

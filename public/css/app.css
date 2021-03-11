@@ -77,6 +77,13 @@ header ul li a {
   background-color: #daedf3;
 }
 
+#prodotti h2 {
+  font-size: 40px;
+  color: #002d75;
+  text-align: center;
+  padding-top: 50px;
+}
+
 #prodotti .container-card {
   padding-top: 10px;
   display: flex;

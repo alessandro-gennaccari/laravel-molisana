@@ -1,5 +1,11 @@
 #prodotti {
     background-color: $colorlightocean;
+    h2{
+        font-size: 40px;
+        color: $colorBlue;
+        text-align: center;
+        padding-top: $px50;
+    }
     .container-card {
         padding-top: $px10;
         display: flex;

@@ -5,13 +5,13 @@
     <div class="header-menu">
         <ul>
             <li>
-                <a href="{{ route('homepage') }}">Home</a>
+                <a href="{{ route('homepage') }}" class="{{ (Request::route()->getName() == 'homepage') ? 'active' : ''}}">Home</a>
             </li>
             <li>
-                <a href="{{ route('pagina-prodotti') }}">Prodotti</a>
+                <a href="{{ route('pagina-prodotti') }}" class="{{ (Request::route()->getName() == 'pagina-prodotti') ? 'active' : ''}}">Prodotti</a>
             </li>
             <li>
-                <a href="{{ route('sezione-notizie') }}">News</a>
+                <a href="{{ route('sezione-notizie') }}" class="{{ (Request::route()->getName() == 'sezione-notizie') ? 'active' : ''}}">News</a>
             </li>
         </ul>
     </div>

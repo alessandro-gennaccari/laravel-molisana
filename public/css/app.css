@@ -17,6 +17,10 @@ a {
   margin: auto;
 }
 
+a.active {
+  color: #002d75;
+}
+
 header {
   padding-top: 20px;
   text-align: center;

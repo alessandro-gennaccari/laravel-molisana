@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Teko", sans-serif;
 }
 
 ul {
@@ -34,11 +35,11 @@ header ul {
 header ul li {
   display: inline-block;
   padding: 0 20px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 header ul li:hover {
-  background-color: rgba(119, 198, 201, 0.712);
+  background-color: #b3e5fc;
 }
 
 header ul li:hover a {
@@ -59,7 +60,7 @@ header ul li a {
 
 .home-text {
   text-align: center;
-  width: 37%;
+  width: 44%;
   margin: auto;
 }
 
@@ -69,6 +70,7 @@ header ul li a {
 
 .home-text p {
   margin-top: 20px;
+  font-size: 24px;
 }
 
 .container-card {
